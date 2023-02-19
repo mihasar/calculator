@@ -1,0 +1,103 @@
+body {
+    background-image: url("assets/images/background-blue-glowing.webp");
+    background-size: 100%;
+}
+
+div {
+    margin-left: 480px;
+    margin-top: 30px;
+    font-family: calcFont;
+}
+
+@font-face {
+    font-family: calcFont;
+    src: url("assets//fonts/Grunger.ttf");
+}
+
+#mainDiv {
+    width: 600px;
+    height: 350px;
+}
+
+input {
+    width: 22%;
+    height: 50px;
+    font-size: 20px;
+    margin: 6px;
+}
+
+#calc {
+    width: 98%;
+    height: 80px;
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 50px;
+    border: 0px solid;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url("assets/images/background-blue-glowing.webp");
+        background-size: 100% 100%;
+    }
+
+    div {
+        margin-left: 160px;
+        margin-top: 30px;
+        font-family: calcFont;
+    }
+
+    input {
+        width: 20.4%;
+        height: 120px;
+        font-size: 20px;
+        margin: 6px;
+    }
+
+    #calc {
+        width: 98%;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        background-color: transparent;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: url("assets/images/graphics.jpg");
+        background-size: 200%;
+    }
+
+    div {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-family: calcFont;
+    }
+
+    #mainDiv {
+        width: 370px;
+    }
+
+    input {
+        width: 20.4%;
+        height: 120px;
+        font-size: 20px;
+        margin: 6px;
+    }
+
+    #calc {
+        width: 98%;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        background-color: transparent;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 40px;
+    }
+}
